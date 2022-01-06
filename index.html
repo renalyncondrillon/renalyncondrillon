@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<script src="js/js.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Arial", sans-serif}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/icon/h.jpg");
+  min-height: 100%;
+}
+
+</style>
+<body class=" w3-content" style="max-width:1600px ; background-color: #e6bcdc;">
+
+
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left bgimg-1 w3-display-container w3-grayscale-min" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/icon/Capture.PNG" style="width:50%;" class="w3-round"><br><br>
+
+    <p class="w3-text-grey"></p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal">HOME</a> 
+    <a href="#profile" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">PERSONAL INFO</a> 
+    <a href="#hobbies" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">HOBBIES & INTEREST</a>
+     <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">SKILLS</a>
+     
+
+  </div>
+  
+</nav>
+
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<div class="w3-main" style="margin-left:300px;" >
+
+
+  <header id="home" >
+    
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    
+    <div class="w3-section w3-bottombar w3-padding-16">
+     
+    </div>
+    <h2 style="font-family: Brush Script Std;"><b>Home</b></h2>
+    </div>
+  </header>
+  
+
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="img/bg/3.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Welcome</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="img/bg/1.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Welcome</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="img/bg/2.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Welcome</span>
+      </div>
+    </div>
+
+
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+
+  <header id="profile" >
+    
+    
+    <div class="w3-container">
+    
+    <div class="w3-section w3-bottombar w3-padding-16">
+     
+    </div>
+    <h2 style="font-family: Brush Script Std;"><b>Personal Info</b></h2>
+    </div>
+  </header>
+  
+  <div class="w3-row-padding w3-padding-16" id="about">
+    
+    <div >
+      <center>
+      <img src="img/icon/Capture2.PNG" alt="Me" style="width:300px">
+    </div>
+    </center>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p><b>Name: </b>Renalyn Gonzaga Condrillon </p>
+    <p><b>Address: </b>Purok 7 , Rumbang Rizal Rumbang , Occidental Mindoro </p>
+    <p><b>Age: </b>19 </p>
+    <p><b>Date of Birth: </b>July 12,2002</p>
+    <p><b>Place of birth: </b> Rumbang Rizal Rumbang , Occidental Mindoro </p>
+    <p><b>Nationality: </b>Filipino </p>
+    <p><b>Religion: </b>The church of Jesus Christ of latter day saints </p>
+    <hr>
+    
+    </div>
+
+
+    <header id="hobbies" >
+    
+    <div class="w3-container">
+    
+    <div class="w3-section w3-bottombar w3-padding-16">
+     
+    </div>
+    <h2 style="font-family: Brush Script Std;"><b>Hobbies & Interest</b></h2>
+    </div>
+  </header>
+  <center>
+  <h3 style="font-family: Brush Script Std;"><b>Hobbies</b></h3>
+  </center>
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/hobbies/1.jpg" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Cooking</b></p>
+        
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/hobbies/2.jpg" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Doing Trendy Color Hairstyle</b></p>
+       
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/hobbies/3.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Dancing </b></p>
+       
+      </div>
+    </div>
+  </div>
+   <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/hobbies/4.jpg" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Playing online games</b></p>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+
+  <center>
+  <h3 style="font-family: Brush Script Std;"><b>Interest</b></h3>
+  </center>
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/hobbies/5.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Dancing</b></p>
+        
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/hobbies/6.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Traveling</b></p>
+       
+      </div>
+    </div>
+    
+  
+    
+  </div>
+
+  <header id="skills" >
+    
+    <div class="w3-container">
+   
+    <div class="w3-section w3-bottombar w3-padding-16">
+     
+    </div>
+     <h2 style="font-family: Brush Script Std;"><b>Skills</b></h2>
+    </div>
+  </header>
+  <center>
+  <h3 style="font-family: Brush Script Std;"><b>Skills</b></h3>
+  </center>
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/skills/1.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Active Listening</b></p>
+        
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/skills/2.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Communication</b></p>
+       
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/skills/3.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Computer Skills </b></p>
+       
+      </div>
+    </div>
+  </div>
+   <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/skills/4.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Ability to work under pressure</b></p>
+        
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/skills/5.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Teamwork</b></p>
+        
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/skills/6.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Multitasker</b></p>
+        
+      </div>
+    </div>
+    
+  </div>
+<div class="w3-row-padding">
+  <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/skills/7.gif" alt="Norway" style="width:100%;height: 300px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Hair Stylist</b></p>
+        
+      </div>
+    </div>
+</div>
+  
+    
+  
+    
+  </div>
+
+
+
+  <div class="w3-white w3-center w3-padding-24">@2022</div>
+
+
+</div>
+
+
+</body>
+</html>
+<script type="">
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+
+</script>

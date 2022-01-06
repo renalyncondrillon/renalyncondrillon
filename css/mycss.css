@@ -1,0 +1,7 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Arial", sans-serif}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/icon/h.jpg");
+  min-height: 100%;
+}
